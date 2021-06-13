@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+      
+        <title>Opções</title>
+        </head>
+
+        <body>
+
+            <style>
+                 *{
+                     margin: 0;
+                     padding: 0;
+                     box-sizing: border-box;
+                 }
+
+                 body {
+                     display: flex;
+                     align-items: center;
+                     justify-content: center;
+                     height: 100vh;
+                     background: rgba(25,25,25);
+                 }
+
+                 .line {
+                     border-right: 2px solid rgba (255, 255, 255, .75);
+                     color:rgba(255, 255,255, 0.75);
+                     font-family: monospace;
+                     font-size: 3em;
+                     margin: 0 auto;
+                     text-align: center;
+                     white-space: nowrap;
+                    overflow: hidden;
+
+                     
+                 }
+
+                 .typing-animation {
+                     animation: blickCursor 500ms steps(40) infinite normal, typing 4s steps(40) 1s normal both;
+                 }
+
+                 .bnt {
+                     font-family: monospace;
+                     font-size: 14px;
+                     text-transform: uppercase;
+                     font-weight: 700;
+                     border: 50%;
+                     padding: 10px;
+                     cursor: pointer;
+                     text-align: center}
+                     
+                     
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color:white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;  
+  margin: 0; 
+}
+
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+                   
+                 
+
+                 @keyframes typing {
+                     from {
+                         width: 0;
+                     }
+                     to {
+                         width: 18em;
+                        }
+                 }
+
+                @keyframes blickCursor{
+                    from {
+                        border-right-color:rgba(255, 255,255, 0.75);
+                    }
+                    to {
+                        border-right-color:transparent;
+                    }
+                }
+
+                 </style>
+            
+           
+
+            <p class= "line typing-animation">Algumas opções: </p>
+            
+            <a href="file:///C:/Users/LowCost/Desktop/HTML/Pag%20Prova/profissional.html"><button class="bnt">Profissional</button></a>
+            <a href="file:///C:/Users/LowCost/Desktop/HTML/Pag%20Prova/musica.html"><button class="bnt">Musical</button></a>
+            <a href="file:///C:/Users/LowCost/Desktop/HTML/Pag%20Prova/op.html"><button class="bnt">Opções</button></a>
+
+            <div class="dropdown">
+                <button class="bnt">Filmes</i>
+    </button>
+    <div class="dropdown-content">
+      <a href="file:///C:/Users/LowCost/Desktop/HTML/Pag%20Prova/series.html">Series</a>
+      <a href="file:///C:/Users/LowCost/Desktop/HTML/Pag%20Prova/Filmes.html">Filmes</a>
+      <a href="file:///C:/Users/LowCost/Desktop/HTML/Pag%20Prova/animes.html">Animes</a>
+    </div>
+  </div>
+</div>
+
+           
+
+
+
+               
+                  
+            
+            
+
+
+         
+            
